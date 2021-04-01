@@ -1,0 +1,17 @@
+.navbar {
+    position: fixed;
+    height: 5vh;
+    width: 99vw;
+    top: 0;
+    left: 0;
+
+    justify-content:flex-end;
+
+}
+
+.navbarLinks {
+    padding: 10px;
+    font-size: 16pt;
+    color: rgb(255, 228, 154);
+    text-shadow: 2px 2px black;
+}

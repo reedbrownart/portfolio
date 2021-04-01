@@ -1,0 +1,39 @@
+#about {
+    height: 100vh;
+    min-height: 900px;
+
+    top: 0;
+    left: 0;
+
+    flex-direction: column;
+    align-items: center;
+    align-content: space-evenly;
+    text-align: center;
+}
+
+#aboutMeParagraph {
+    flex-direction: column;
+    border-radius: 5px;
+    color: white;
+}
+
+#aboutMeTitle {
+    height: 150px;
+}
+
+#resume {
+    font-size: 36pt;
+    color: rgb(255, 228, 154);
+    text-shadow: 2px 2px black;
+}
+
+.image {
+    height: 200px;
+    padding: 5px;
+}
+
+.copyFont {
+    font-size: 16pt;
+    font-style: normal;
+}
+

@@ -1,0 +1,66 @@
+#projects {
+    height: 100vh;
+    min-height: 700px;
+
+    top: 0;
+    left: 0;
+
+    flex-direction: column;
+    align-items: center;
+    align-content: space-evenly;
+
+}
+
+#projectBoard {
+    width: 50vw;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.project {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    padding: 5px;
+}
+
+.projectImage {
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.hiddenText {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    left: 5px;
+
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    background-color: rgb(67, 67, 151);
+    padding: 10px;
+}
+
+.projectImage:hover + .hiddenText {
+    display: block;
+    color: white;
+    font-size: 14pt;
+}
+
+.hiddenText:hover {
+    display: block;
+    color: white;
+    font-size: 14pt;
+}
+
+.skill {
+    height: 75px;
+    width: 75px;
+    padding: 5px;
+}
+
+#skillBoard {
+
+}

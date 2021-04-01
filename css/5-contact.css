@@ -1,0 +1,50 @@
+#contact {
+    height: 100vh;
+    min-height: 700px;
+
+    top: 0;
+    left: 0;
+
+    flex-direction: column;
+    align-items: center;
+    align-content: space-evenly;
+    justify-content: space-between;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    justify-content: space-between;
+}
+
+#contactLinks {
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#messageBox {
+    height: 200px;
+}
+
+.contactImage {
+    padding: 10px;
+}
+
+#github {
+    height: 130px;
+    width: 130px;
+}
+
+#linkedIn {
+    height: 145px;
+    width: 145px;
+    padding-left: 30px;
+}
+
+#instagram {
+    height: 160px;
+    width: 160px;
+}

@@ -1,0 +1,53 @@
+@import "./1-navBar.css";
+@import "./2-landing.css";
+@import "./3-about.css";
+@import "./4-projects.css";
+@import "./5-contact.css";
+@import "./6-footer.css";
+
+body {
+    margin: auto;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+
+    background-image: url("../assets/background3.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
+}
+
+div {
+    display: flex;
+}
+
+p {
+    font-size: 1em;
+    width: 40vw;
+}
+
+h1 {
+    font-size: 5em;
+    color: rgb(255, 228, 154);
+}
+
+h3 {
+    font-size: 3em;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: grey;
+    border-radius: 5px;
+
+}
