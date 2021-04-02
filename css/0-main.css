@@ -15,7 +15,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
-    color: rgb(255, 255, 255);
+    color: white;
     text-shadow: 2px 2px black;
 }
 
@@ -25,16 +25,16 @@ div {
 
 p {
     font-size: 1em;
-    width: 40vw;
+    width: 60vw;
 }
 
 h1 {
     font-size: 5em;
-    color: rgb(255, 228, 154);
+    color: white
 }
 
 h3 {
-    font-size: 3em;
+    margin: 0;
 }
 
 li {
@@ -49,5 +49,4 @@ a:hover {
     color: white;
     background-color: grey;
     border-radius: 5px;
-
 }
