@@ -13,7 +13,7 @@ body {
 
     background-image: url("../assets/background3.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100vw 100vh;
     background-attachment: fixed;
     color: white;
     text-shadow: 2px 2px black;

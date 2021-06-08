@@ -15,6 +15,7 @@
     width: 50vw;
     justify-content: space-evenly;
     position: relative;
+    flex-wrap: wrap;
 }
 
 .project {
